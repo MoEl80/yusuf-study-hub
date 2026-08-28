@@ -1,0 +1,60 @@
+/* Year 9 English (9A English 2026) — Flashcards.
+   Source: aligned to the guide.js topics (NESA English K–10 (2022), Stage 5). */
+(function (root) {
+  root.YSH_DATA = root.YSH_DATA || {};
+  root.YSH_DATA.english = root.YSH_DATA.english || {};
+  root.YSH_DATA.english.flashcards = {
+    subjectId: 'english',
+    cards: [
+      { id: 'eng-card-001', topic: 'persuasion', front: 'Define: ethos', back: 'Persuading through the credibility, authority or character of the speaker.' },
+      { id: 'eng-card-002', topic: 'persuasion', front: 'Define: pathos', back: 'Persuading through the audience\'s emotions.' },
+      { id: 'eng-card-003', topic: 'persuasion', front: 'Define: logos', back: 'Persuading through logic, facts, statistics and reasoning.' },
+      { id: 'eng-card-004', topic: 'persuasion', front: 'What is a tricolon? Give the famous example.', back: 'A list of three parallel items/clauses — "government of the people, by the people, for the people".' },
+      { id: 'eng-card-005', topic: 'persuasion', front: 'Low vs high modality — give examples', back: 'Low: might, could, perhaps (cautious). High: must, will, undeniably (forceful).' },
+      { id: 'eng-card-006', topic: 'persuasion', front: 'What are the 5 moves of a persuasive paragraph (TEEC+)?', back: 'Topic/claim → Evidence → Explanation → Evaluation (counter + rebuttal) → Link back.' },
+      { id: 'eng-card-007', topic: 'persuasion', front: 'Define: anaphora', back: 'Repeating the same words at the START of successive clauses — "We shall fight… we shall never surrender".' },
+      { id: 'eng-card-008', topic: 'narrative', front: 'Name the 5 stages of the narrative arc', back: 'Orientation → complication → rising tension → climax → resolution.' },
+      { id: 'eng-card-009', topic: 'narrative', front: 'What does STEAL stand for (indirect characterisation)?', back: 'Speech, Thoughts, Effect on others, Actions, Looks.' },
+      { id: 'eng-card-010', topic: 'narrative', front: 'First person vs third person omniscient — key difference?', back: 'First person: intimate but only knows what the narrator knows. Third omniscient: sees into every character\'s mind.' },
+      { id: 'eng-card-011', topic: 'narrative', front: 'Define: foreshadowing', back: 'Hints or clues that suggest what will happen later in the narrative.' },
+      { id: 'eng-card-012', topic: 'narrative', front: 'Define: motif', back: 'An image, sound or idea that repeats through a text and carries meaning.' },
+      { id: 'eng-card-013', topic: 'narrative', front: '"Show don\'t tell" — how do you SHOW nervousness?', back: 'Physical detail (trembling laces), interior thought, setting pressure — prove the emotion instead of naming it.' },
+      { id: 'eng-card-014', topic: 'poetry', front: 'Metaphor vs simile', back: 'Metaphor: one thing IS another ("hope is a bird"). Simile: comparison using like/as ("brave as a lion").' },
+      { id: 'eng-card-015', topic: 'poetry', front: 'Define: personification', back: 'Giving human qualities to something non-human — "the wind whispered".' },
+      { id: 'eng-card-016', topic: 'poetry', front: 'What is enjambment and what does it do?', back: 'A line running over to the next without punctuation — creates speed, momentum or overflow of feeling.' },
+      { id: 'eng-card-017', topic: 'poetry', front: 'Define: caesura', back: 'A deliberate pause mid-line — can imitate hesitation, shock or breath.' },
+      { id: 'eng-card-018', topic: 'poetry', front: 'Alliteration vs assonance', back: 'Alliteration: repeated consonant SOUNDS at word starts. Assonance: repeated VOWEL sounds in nearby words.' },
+      { id: 'eng-card-019', topic: 'poetry', front: 'Define: allusion', back: 'A reference to another text, event or person the reader is expected to recognise.' },
+      { id: 'eng-card-020', topic: 'poetry', front: 'The 4-step poem analysis method', back: 'Read twice → literal situation → track imagery & sound → connect devices to theme with quotes.' },
+      { id: 'eng-card-021', topic: 'shakespeare', front: 'Define: soliloquy', back: 'A speech delivered ALONE on stage revealing private thoughts to the audience.' },
+      { id: 'eng-card-022', topic: 'shakespeare', front: 'Soliloquy vs aside', back: 'Soliloquy: long, alone, reveals thoughts. Aside: brief remark to the audience, unheard by other characters.' },
+      { id: 'eng-card-023', topic: 'shakespeare', front: 'Define: dramatic irony', back: 'The audience knows something a character does not — builds tension.' },
+      { id: 'eng-card-024', topic: 'shakespeare', front: 'What is iambic pentameter?', back: 'Five unstressed-stressed syllable pairs per line — Shakespeare\'s noble/default verse rhythm.' },
+      { id: 'eng-card-025', topic: 'shakespeare', front: 'Define: tragic flaw (hamartia) + Macbeth example', back: 'The weakness that dooms the tragic hero — Macbeth\'s unchecked ambition.' },
+      { id: 'eng-card-026', topic: 'shakespeare', front: 'What is a foil character?', back: 'A character who contrasts with another to highlight qualities — e.g. Macduff as Macbeth\'s foil.' },
+      { id: 'eng-card-027', topic: 'shakespeare', front: 'Blank verse vs prose in Shakespeare — what does the switch signal?', back: 'Blank verse = nobility/formality. Prose = lower status, intimacy, or madness.' },
+      { id: 'eng-card-028', topic: 'media', front: 'Define: positioning', back: 'The way a text steers the audience toward a particular view, feeling or blame.' },
+      { id: 'eng-card-029', topic: 'media', front: 'What does a low camera angle suggest?', back: 'Power, dominance or importance of the subject.' },
+      { id: 'eng-card-030', topic: 'media', front: '"Thug" vs "protester" — what technique is this?', back: 'Loaded language — word choice carrying strong connotations that position the reader.' },
+      { id: 'eng-card-031', topic: 'media', front: 'Denotation vs connotation', back: 'Denotation: dictionary meaning. Connotation: the emotional/cultural meaning attached to the word.' },
+      { id: 'eng-card-032', topic: 'media', front: 'Define: filter bubble', back: 'Algorithm-personalised feeds that only show views you already agree with, shaping what feels "normal".' },
+      { id: 'eng-card-033', topic: 'media', front: 'Why is "all media texts are constructions" important in analysis?', back: 'Someone selected, cut and framed what you see — nothing is neutral, so ask what was left out and who benefits.' },
+      { id: 'eng-card-034', topic: 'textual-analysis', front: 'What are the 4 moves of TEEC?', back: 'Topic sentence → Evidence (quote) → Explanation (analysis) → Concluding link.' },
+      { id: 'eng-card-035', topic: 'textual-analysis', front: 'Topic vs thesis — spot the difference', back: 'Topic: "Violence in the play". Thesis: "The cycle of violence drives the tragedy" — a thesis is an ARGUMENT.' },
+      { id: 'eng-card-036', topic: 'textual-analysis', front: 'What does analysis ask?', back: 'SO WHAT? and HOW? — what the technique makes the audience understand/feel and how it proves the thesis.' },
+      { id: 'eng-card-037', topic: 'textual-analysis', front: 'How should quotes be used in an essay?', back: 'Embedded, short, woven into your sentence — "the \'milk of human kindness\' positions Lady Macbeth as…".' },
+      { id: 'eng-card-038', topic: 'textual-analysis', front: 'Why is plot summary a marks-killer?', back: 'Summary retells WHAT happens; marks reward HOW meaning is made and WHY it proves the argument.' },
+      { id: 'eng-card-039', topic: 'reading-skills', front: 'Define: inference', back: 'A conclusion reached from evidence + reasoning — what the text implies, not states.' },
+      { id: 'eng-card-040', topic: 'reading-skills', front: 'Skim vs scan', back: 'Skim: quick read for the GIST. Scan: quick search for a SPECIFIC fact, word or number.' },
+      { id: 'eng-card-041', topic: 'reading-skills', front: 'Tone vs mood', back: 'Tone: the WRITER\'s attitude (critical, amused). Mood: the feeling the READER experiences.' },
+      { id: 'eng-card-042', topic: 'reading-skills', front: 'Best structure for a short-answer question?', back: 'Answer the question in the FIRST sentence, then prove it with a quote or specific detail.' },
+      { id: 'eng-card-043', topic: 'reading-skills', front: 'Explicit vs implicit', back: 'Explicit: stated directly. Implicit: suggested or implied — requires inference.' },
+      { id: 'eng-card-044', topic: 'narrative', front: 'What work does SETTING do in a narrative?', back: 'Creates mood, pressures characters, can act like a character (the gym "smelled of polish and old victories").' },
+      { id: 'eng-card-045', topic: 'discursive', front: 'Define: discursive writing', back: 'Writing that explores an idea from a personal, thoughtful angle — considering multiple views instead of arguing one side to win.' },
+      { id: 'eng-card-046', topic: 'discursive', front: 'Discursive vs persuasive — the key difference?', back: 'Persuasive pushes ONE conclusion on the reader. Discursive weighs ideas honestly and may end with an open question.' },
+      { id: 'eng-card-047', topic: 'discursive', front: 'What is an anecdote and why open with one?', back: 'A small, specific personal story. It grounds a big idea in a real moment the reader can feel.' },
+      { id: 'eng-card-048', topic: 'discursive', front: 'What is a hybrid text?', back: 'A piece mixing text types — e.g. discursive reflection with persuasive moments — deliberately, for effect.' },
+      { id: 'eng-card-049', topic: 'discursive', front: 'How does discursive writing hold together without "firstly, secondly"?', back: 'Recurring motifs, pronoun shifts, echoing images and connectives — cohesion through craft, not signposts.' }
+    ]
+  };
+})(typeof self !== 'undefined' ? self : globalThis);

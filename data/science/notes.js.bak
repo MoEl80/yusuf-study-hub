@@ -1,0 +1,15 @@
+(function (root) {
+  root.YSH_DATA = root.YSH_DATA || {};
+  root.YSH_DATA.science = root.YSH_DATA.science || {};
+  /* Sources: Google Classroom Takeout export 2026-08-28 (9A Science, Ms Straub). Drive links open in the browser (his school session). */
+  root.YSH_DATA.science.notes = {
+    subjectId: 'science',
+    summaries: [
+      { id: 'sci-note-001', title: 'What 9A Science is studying (real Classroom data, Aug 2026)', source: '9A Science — Ms Straub', added: '2026-08-28', body: 'Term 1: **Energy** — the class did an Energy Efficient Home Design Project (group task) and Investigation 1.9 Comparing energy in appliances. The Study Guide\'s Energy topic matches this exactly: work the efficiency and kWh calculations until automatic.\n\nJune: **Infectious Diseases** — a Canva lesson link was posted. The Disease topic in the guide covers pathogens, transmission and immunity: that is the term to revise for yearly exams.', topics: ['energy', 'disease'] },
+    ],
+    links: [
+      { title: '[Template] Energy Efficient Home Design Project.docx', href: 'https://drive.google.com/file/d/1sLZXP-wNn8bwu1eIgXMX64BpEwtJnSbz/view?usp=drive_web' },
+      { title: '[Template] Investigation 1.9 Comparing energy in appliances (1).docx', href: 'https://drive.google.com/file/d/1svFz7bKVygXa15sz5LVRxKNr0W9wcLeP/view?usp=drive_web' },
+    ]
+  };
+})(typeof self !== 'undefined' ? self : globalThis);

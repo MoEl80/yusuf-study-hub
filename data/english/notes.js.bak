@@ -1,0 +1,23 @@
+(function (root) {
+  root.YSH_DATA = root.YSH_DATA || {};
+  root.YSH_DATA.english = root.YSH_DATA.english || {};
+  /* Sources: Google Classroom Takeout export 2026-08-28 (9A English 2026, Ms Rendell). Drive links open in the browser (his school session). */
+  root.YSH_DATA.english.notes = {
+    subjectId: 'english',
+    summaries: [
+      { id: 'eng-note-001', title: 'What 9A English is studying (real Classroom data, Aug 2026)', source: '9A English 2026 — Ms Rendell', added: '2026-08-28', body: 'Term 1 was the unit **Overcoming Adversity** with Assessment Task 1 (drafts submitted Feb-Mar).\n\nTerm 2 was **Discursive writing** with Assessment 2 (drafts submitted May).\n\nTerm 3 (NOW) is **MACBETH** — context research lessons started 11 June, weekly research tasks through August. Study the Shakespeare topic in the Study Guide first: that is the current assessment area.\n\nNAPLAN happened in March (writing + language conventions practice). Your yearly exam will likely draw on Macbeth plus the writing types practiced this year.', topics: ['shakespeare', 'discursive', 'narrative'] },
+      { id: 'eng-note-002', title: 'Macbeth — how the class started', source: '9A English 2026 — Classwork, Jun-Aug', added: '2026-08-28', body: 'Ms Rendell started with **context research**: who Macbeth was historically, King James I, witchcraft and the Gunpowder Plot, and why Shakespeare wrote it for his king.\n\nLesson 1 was a **Get Organised (Lab)** research task — each student copies a template doc and submits for approval.\n\nExam focus: know the plot, the main characters (Macbeth, Lady Macbeth, Duncan, Banquo, the witches), key quotes, and the context ideas above. The guide\'s Shakespeare topic covers all of these.', topics: ['shakespeare'] },
+    ],
+    links: [
+      { title: '[Template] Year 9 Macbeth - Lesson 1 Get Organised (Lab).docx', href: 'https://drive.google.com/file/d/1cwWuDpCs99DiiXQdoJfomIkUdCtztDnd/view?usp=drive_web' },
+      { title: '[Template] Context Research_ Introduction to Macbeth.docx', href: 'https://drive.google.com/file/d/1mycoVR2w9ZpGyjWvun7Z9iPkPMXqJ1Cj/view?usp=drive_web' },
+      { title: '[Template] Untitled document', href: 'https://docs.google.com/document/d/1zo0ddn1QGdakWk0wUwVNzkQb8AtlxN4YnBVrIwxHx_E/edit?usp=drive_web' },
+      { title: '[Template] NAPLAN Writing', href: 'https://docs.google.com/document/d/1dJxzqxg9piRsxL8yMhCR0nY91Hfm1MreBhAkkvPer_0/edit?usp=drive_web' },
+      { title: 'samplewritingpromptcityorcountry.pdf', href: 'https://drive.google.com/file/d/1giz8phynT_vhc8kAifZtylFKVWnPydmx/view?usp=drive_web' },
+      { title: 'Not found', href: 'https://y7futurefabrics.my.canva.site/c33rg289caef927f' },
+      { title: 'Microsoft Copilot: Your AI companion', href: 'https://copilot.microsoft.com/shares/Ltoqybz3gjiahTxEQKL8Z' },
+      { title: 'Year 9 English Term 1 Assessment Notification 2026.docx.pdf', href: 'https://drive.google.com/file/d/1x5HpQ0z-rRZJg_mURzdAEArEWxvk0Wdf/view?usp=drive_web' },
+      { title: '[Template] English Draft', href: 'https://docs.google.com/document/d/1f4adEXwLomZdhw02sE7Y2AwqJ1MXGvH_A4fANkLmOlM/edit?usp=drive_web' },
+    ]
+  };
+})(typeof self !== 'undefined' ? self : globalThis);

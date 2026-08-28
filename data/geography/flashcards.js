@@ -1,0 +1,58 @@
+/* Geography Year 9 flashcards — sources: Geography K–10 Syllabus (2015) Stage 5 (verified 2026-08-28, in force for Year 9 2026). */
+(function (root) {
+  root.YSH_DATA = root.YSH_DATA || {};
+  root.YSH_DATA.geography = root.YSH_DATA.geography || {};
+  root.YSH_DATA.geography.flashcards = {
+    subjectId: 'geography',
+    cards: [
+      { id: 'geo-card-001', topic: 'sustainable-biomes', front: 'Define: biome', back: 'A very large ecosystem with characteristic climate, soils, plants and animals — e.g. desert, tundra, tropical rainforest.' },
+      { id: 'geo-card-002', topic: 'sustainable-biomes', front: 'Which biome has the HIGHEST biodiversity?', back: 'Tropical rainforest — hot and wet all year near the equator.' },
+      { id: 'geo-card-003', topic: 'sustainable-biomes', front: 'Where are deserts mostly found, and why?', back: 'Near 30° latitude — sinking dry air means very little rain (under 250 mm a year).' },
+      { id: 'geo-card-004', topic: 'sustainable-biomes', front: 'Two ways humans MODIFY biomes for food', back: 'Clearing vegetation and irrigating dry land (also fertilising, drainage, greenhouses).' },
+      { id: 'geo-card-005', topic: 'sustainable-biomes', front: 'Define: food security', back: 'When all people at all times have access to enough safe, nutritious food.' },
+      { id: 'geo-card-006', topic: 'sustainable-biomes', front: 'Why does clearing deep-rooted trees cause salinity?', back: 'Deep roots used to soak up salty groundwater — with them gone, the water table rises and salt reaches the roots of crops.' },
+      { id: 'geo-card-007', topic: 'sustainable-biomes', front: 'What is Australia\u2019s wheat belt grown on?', back: 'Temperate grassland biome soils — converted to one of the world\u2019s great grain regions.' },
+      { id: 'geo-card-008', topic: 'sustainable-biomes', front: 'Two SUSTAINABLE farming practices', back: 'Crop rotation and drip irrigation (also native vegetation buffers, precision agriculture).' },
+      { id: 'geo-card-009', topic: 'changing-places', front: 'Define: urbanisation', back: 'The increasing proportion of people living in cities and towns.' },
+      { id: 'geo-card-010', topic: 'changing-places', front: 'Three PUSH factors for migration', back: 'War/conflict, drought and food shortage, unemployment — things that force people out.' },
+      { id: 'geo-card-011', topic: 'changing-places', front: 'Three PULL factors', back: 'Jobs, education, safety/healthcare — things that attract people in.' },
+      { id: 'geo-card-012', topic: 'changing-places', front: 'Define: megacity + one example', back: 'A city over 10 million people — e.g. Tokyo, Delhi, Shanghai, São Paulo.' },
+      { id: 'geo-card-013', topic: 'changing-places', front: 'Define: liveability', back: 'The qualities that make a place good to live in — housing, transport, green space, safety, services.' },
+      { id: 'geo-card-014', topic: 'changing-places', front: 'What was Barangaroo before renewal?', back: 'Old shipping docks on Sydney Harbour — now towers, parks and public waterfront (urban renewal case study).' },
+      { id: 'geo-card-015', topic: 'changing-places', front: 'One cost and one benefit of urban renewal', back: 'Cost: housing affordability pressure/displacement. Benefit: better public space, services and amenities.' },
+      { id: 'geo-card-016', topic: 'changing-places', front: 'Why do Australian country towns sometimes shrink?', back: 'Young people move to cities for work and study (rural-urban drift) — services follow people out.' },
+      { id: 'geo-card-017', topic: 'environmental-change', front: 'Four HUMAN causes of environmental change', back: 'Land clearing, mining, introduced species, pollution (including fossil-fuel climate change).' },
+      { id: 'geo-card-018', topic: 'environmental-change', front: 'What is coral bleaching?', back: 'Heat-stressed coral expels its algae, turns white, and can starve and die — driven by marine heatwaves.' },
+      { id: 'geo-card-019', topic: 'environmental-change', front: 'Three strategies to manage a damaged environment', back: 'Protection (parks, zoning), regulation (quotas, limits), restoration (revegetation, reef seeding).' },
+      { id: 'geo-card-020', topic: 'environmental-change', front: 'Define: stakeholder + two for the reef', back: 'Anyone with an interest in the management decision — e.g. tourism operators, commercial fishers, Traditional Owners, government.' },
+      { id: 'geo-card-021', topic: 'environmental-change', front: 'How do green zones help the Reef?', back: 'No-fishing zones let fish numbers and coral recover — science shows higher biodiversity inside green zones.' },
+      { id: 'geo-card-022', topic: 'environmental-change', front: 'The sustainability test of good management', back: 'Does it protect the environment AND support livelihoods — now and for future generations?' },
+      { id: 'geo-card-023', topic: 'environmental-change', front: 'One limitation of reef zoning', back: 'It manages local threats (fishing) but cannot stop global warming — the biggest bleaching driver.' },
+      { id: 'geo-card-024', topic: 'environmental-change', front: 'Define: rehabilitation (in geography)', back: 'Helping a damaged environment recover towards its original condition — e.g. revegetating a mine site.' },
+      { id: 'geo-card-025', topic: 'human-wellbeing', front: 'Define: human wellbeing', back: 'The quality of people\u2019s lives — health, income, education, safety, rights and happiness.' },
+      { id: 'geo-card-026', topic: 'human-wellbeing', front: 'What does HDI combine?', back: 'Income, education and life expectancy into one 0–1 score (Human Development Index).' },
+      { id: 'geo-card-027', topic: 'human-wellbeing', front: 'Define: GDP per capita', back: 'Total economic output \u00F7 population — average income per person (averages can hide inequality).' },
+      { id: 'geo-card-028', topic: 'human-wellbeing', front: 'Where is wellbeing highest / lowest globally?', back: 'Highest: Australia, Western Europe, North America. Lowest: parts of Sub-Saharan Africa and South Asia.' },
+      { id: 'geo-card-029', topic: 'human-wellbeing', front: 'Three indicators of wellbeing', back: 'Life expectancy, literacy rate, access to clean water (also GDP per capita, HDI).' },
+      { id: 'geo-card-030', topic: 'human-wellbeing', front: 'What are the SDGs?', back: 'UN Sustainable Development Goals — 17 targets like zero hunger, quality education, good health.' },
+      { id: 'geo-card-031', topic: 'human-wellbeing', front: 'Why do causes of low wellbeing cluster together?', back: 'Conflict, drought, disease and poor schooling reinforce each other — a child out of school earns less and is sicker.' },
+      { id: 'geo-card-032', topic: 'human-wellbeing', front: 'Two programs that improve wellbeing', back: 'Clean water projects and girls\u2019 education (also vaccination campaigns, microfinance).' },
+      { id: 'geo-card-033', topic: 'geographical-skills', front: 'Grid reference vs area reference', back: 'Grid reference: 6 figures, exact point (348765). Area reference: 4 figures, grid square (3487). Eastings FIRST.' },
+      { id: 'geo-card-034', topic: 'geographical-skills', front: 'Order of the 16-point compass from N to E', back: 'N, NNE, NE, ENE, E — remember: Never Eat Soggy Weetbix.' },
+      { id: 'geo-card-035', topic: 'geographical-skills', front: 'On a climate graph: what are the bars and the line?', back: 'Bars = rainfall (mm). Line = temperature (\u00B0C). Two axes — always read the right one.' },
+      { id: 'geo-card-036', topic: 'geographical-skills', front: 'What does a choropleth map show?', back: 'Areas shaded by data value — dark = high, light = low. Used for wellbeing, density, rainfall.' },
+      { id: 'geo-card-037', topic: 'geographical-skills', front: 'Close isobars on a synoptic chart mean…', back: 'A steep pressure gradient — strong winds. L = low pressure = rain; H = high = clear.' },
+      { id: 'geo-card-038', topic: 'geographical-skills', front: 'Scale 1:100,000 — 4 cm on the map = ? in real life', back: '4 \u00D7 100,000 cm = 400,000 cm = 4 km.' },
+      { id: 'geo-card-039', topic: 'geographical-skills', front: 'Population density formula', back: 'Population \u00F7 area (km\u00B2) — always give people per km\u00B2.' },
+      { id: 'geo-card-040', topic: 'geographical-skills', front: 'Gradient formula', back: 'Height gain \u00F7 horizontal distance (same units), e.g. 200 m over 2 km = 1 in 10.' },
+      { id: 'geo-card-041', topic: 'fieldwork-inquiry', front: 'The stages of geographical inquiry', back: 'Question \u2192 plan \u2192 collect \u2192 process & present \u2192 conclude & communicate \u2192 evaluate & act.' },
+      { id: 'geo-card-042', topic: 'fieldwork-inquiry', front: 'Primary vs secondary data', back: 'Primary: collected by YOU (survey, traffic count, photos). Secondary: others\u2019 data (census, BOM records).' },
+      { id: 'geo-card-043', topic: 'fieldwork-inquiry', front: 'What makes a good inquiry question?', back: 'Specific and researchable — "How does traffic vary by time of day?" not "Is traffic bad?"' },
+      { id: 'geo-card-044', topic: 'fieldwork-inquiry', front: 'Define: hypothesis', back: 'A testable statement predicting what you expect to find — you test it with data.' },
+      { id: 'geo-card-045', topic: 'fieldwork-inquiry', front: 'Three fieldwork techniques', back: 'Surveys, traffic/pedestrian counts, field sketches (also interviews, water testing, photography).' },
+      { id: 'geo-card-046', topic: 'fieldwork-inquiry', front: 'Two ethics/safety rules for fieldwork', back: 'Anonymise survey answers; assess risks (traffic, water, sun) and get permission first.' },
+      { id: 'geo-card-047', topic: 'fieldwork-inquiry', front: 'What goes in an EVALUATION?', back: 'How reliable your methods were, their limitations, and what you would improve next time.' },
+      { id: 'geo-card-048', topic: 'fieldwork-inquiry', front: 'Best graph for "traffic varies by time of day"?', back: 'A line graph — vehicles (y) against time (x); shows the peaks clearly.' }
+    ]
+  };
+})(typeof self !== 'undefined' ? self : globalThis);
