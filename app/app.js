@@ -69,9 +69,11 @@
   }
 
   function zoneLinks(subject, active) {
+    var tutorName = window.YSH.tutor ? window.YSH.tutor.personaFor(subject.id).name : null;
     var zones = [
       ['guide', '📖 Study Guide'], ['notes', '📚 Notes & Resources'], ['cards', '🃏 Flashcards'],
-      ['quiz', '❓ Practice Quiz'], ['exam', '🎓 Exam Mode']
+      ['quiz', '❓ Practice Quiz'], ['exam', '🎓 Exam Mode'],
+      ['tutor', tutorName ? '🤖 Ask ' + tutorName : '🤖 Ask the Tutor']
     ];
     return zones.map(function (z) {
       var href = '#/s/' + subject.id + '/' + z[0];
@@ -249,6 +251,7 @@
     else if (m[2] === 'cards') window.YSH.ui.flashcards.render(main, subject);
     else if (m[2] === 'quiz') window.YSH.ui.quiz.render(main, subject);
     else if (m[2] === 'exam') window.YSH.ui.exam.render(main, subject);
+    else if (m[2] === 'tutor') window.YSH.ui.tutor.render(main, subject);
     else renderDashboard(main);
     window.scrollTo(0, 0);
   }
