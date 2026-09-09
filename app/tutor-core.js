@@ -80,8 +80,8 @@
       req = f(endpoint + '/v1/messages', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'x-api-key': config.key, 'anthropic-version': '2023-06-01' },
-        // thinking disabled: glm-4.6 defaults it on and short tutor answers do not need it (verified live)
-        body: JSON.stringify({ model: model, max_tokens: 2000, thinking: { type: 'disabled' }, system: payload.system, messages: payload.messages })
+        // max effort: thinking enabled with a generous budget — smarter marking and explanations (verified live 2026-09-09)
+        body: JSON.stringify({ model: model, max_tokens: 4000, thinking: { type: 'enabled', effort: 'high', budget_tokens: 3000 }, system: payload.system, messages: payload.messages })
       }).then(function (res) {
         return res.json().then(function (data) {
           if (!res.ok) throw extractError(data, res.status);
