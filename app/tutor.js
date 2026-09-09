@@ -122,7 +122,7 @@
     w.appendChild(app.el('div', { text: 'It needs a GLM API key (a free one works) and then answers questions on every subject. One-time setup:' }));
     w.appendChild(app.el('div', { text: '1. Ask Pi to set up the tutor key — see TUTOR-SETUP.md next to this app.' }));
     w.appendChild(app.el('div', { text: '2. Or paste the family key here to use the AI on this device:' }));
-    var input = app.el('input', { type: 'password', class: 'tutor-key', placeholder: 'GLM API key' });
+    var input = app.el('input', { type: 'text', class: 'tutor-key', placeholder: 'GLM API key (type or paste it exactly)', autocapitalize: 'off', autocorrect: 'off', spellcheck: 'false' });
     var save = app.el('button', { class: 'button', text: 'Save' });
     save.addEventListener('click', function () {
       if (!input.value.trim()) return;
