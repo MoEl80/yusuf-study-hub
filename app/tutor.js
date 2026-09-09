@@ -102,6 +102,15 @@
       greet();
     });
     starters.appendChild(clearBtn);
+    var keyBtn = app.el('button', { class: 'button', text: '🔑 Key' });
+    keyBtn.addEventListener('click', function () {
+      var k = prompt('GLM API key (type or paste it exactly):', '');
+      if (k && k.trim()) {
+        try { localStorage.setItem('ysh.tutorKey', k.trim()); } catch (e) {}
+        location.reload();
+      }
+    });
+    starters.appendChild(keyBtn);
     panel.appendChild(starters);
 
     var ta = app.el('textarea', { id: 'tutor-input', class: 'answer', placeholder: 'Type your question… (Enter to send, Shift+Enter for a new line)' });
