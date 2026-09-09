@@ -237,6 +237,14 @@
 
   function route() {
     var hash = location.hash || '#/dashboard';
+    // One-time setup link: ...#/key/<encoded key> — save the key on this device, then strip it
+    // from the address bar and history. Never sent to any server (it's a URL fragment).
+    var km = hash.match(/^#\/key\/(.+)$/);
+    if (km) {
+      try { localStorage.setItem('ysh.tutorKey', decodeURIComponent(km[1])); } catch (e) {}
+      try { history.replaceState(null, '', location.pathname + location.search + '#/ai'); hash = '#/ai'; }
+      catch (e) { location.hash = '#/ai'; return; }  // fires hashchange, which re-runs route()
+    }
     renderSidebar(hash);
     var main = document.getElementById('main');
     main.textContent = '';
@@ -266,14 +274,6 @@
   window.YSH.ui = window.YSH.ui || {};
   window.addEventListener('DOMContentLoaded', function () {
     app.store = window.YSH.createStore(window.localStorage);
-    // One-time setup link: ...#/key/<encoded key> — saves the key on this device,
-    // then strips it from the address bar and history. Never sent to any server (it's a fragment).
-    var km = location.hash.match(/^#\/key\/(.+)$/);
-    if (km) {
-      try { localStorage.setItem('ysh.tutorKey', decodeURIComponent(km[1])); } catch (e) {}
-      try { history.replaceState(null, '', location.pathname + location.search + '#/ai'); }
-      catch (e) { location.hash = '#/ai'; }
-    }
     window.addEventListener('hashchange', route);
     route();
   });
