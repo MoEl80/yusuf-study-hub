@@ -1,4 +1,4 @@
-/* Tutor core: prompt building + GLM chat call. Pure logic — no DOM. Testable in node.
+/* Tutor core: the one AI zone's prompt building + GLM chat call. Pure logic — no DOM. Testable in node.
    Supports two API styles via config.kind:
    - 'anthropic' (default): BigModel GLM Coding Plan subscription — POST {endpoint}/v1/messages
    - 'openai': standard chat/completions (open.bigmodel.cn or api.z.ai) */
@@ -15,44 +15,48 @@
     openai: { endpoint: 'https://open.bigmodel.cn/api/paas/v4/chat/completions', model: 'glm-4-flash' }
   };
 
-  /* Each subject's tutor has a name and one-line personality, used in the UI and the system prompt. */
-  var PERSONAS = {
-    english:   { name: 'Quill', persona: 'You love words, stories and Shakespeare — playful with examples from books and films.' },
-    science:   { name: 'Nova',  persona: 'You love experiments and real-world science — you use everyday examples and numbers when they help.' },
-    pdhpe:     { name: 'Coach', persona: 'You are an encouraging sports coach — practical, positive, big on healthy habits and fair play.' },
-    geography: { name: 'Atlas', persona: 'You see the world through maps and places — you connect ideas to real locations, especially in Australia.' }
-  };
-  function personaFor(subjectId) {
-    return PERSONAS[subjectId] || { name: 'Tutor', persona: 'You are a friendly all-round study tutor.' };
-  }
+  /* One AI zone: course-wide context — all subjects, each block trimmed, total capped. */
+  var PER_SUBJECT_CTX_LIMIT = 4000;
+  var TOTAL_CTX_LIMIT = 16000;
 
-  function systemPrompt(subject, guide) {
-    var p = personaFor(subject.id);
-    var ctx = '';
-    if (guide && guide.topics) {
-      ctx = guide.topics.map(function (t) {
-        return '## ' + t.title + '\n' + (t.keyKnowledge || []).map(function (k) { return '- ' + k; }).join('\n');
-      }).join('\n\n');
-      if (ctx.length > 6000) ctx = ctx.slice(0, 6000) + '\n…(truncated)';
-    }
-    return 'You are ' + p.name + ', a friendly, patient tutor for a Year 9 student (age 14-15) in NSW, Australia, ' +
-      'studying ' + subject.name + ' at Amity College. The class teacher is ' + (subject.teacher || 'his teacher') + '. ' + p.persona + '\n' +
+  var STARTERS = {
+    quiz: 'Quiz me: 5 multiple-choice questions, one at a time, from any of my subjects.',
+    mix: 'Mix me a practice set: a few multiple-choice and one short-answer question from different topics.'
+  };
+
+  function systemPrompt(course) {
+    var blocks = [];
+    (course || []).forEach(function (s) {
+      var ctx = '';
+      if (s.guide && s.guide.topics) {
+        ctx = s.guide.topics.map(function (t) {
+          return '- ' + t.title + ': ' + (t.keyKnowledge || []).join(' ');
+        }).join('\n');
+        if (ctx.length > PER_SUBJECT_CTX_LIMIT) ctx = ctx.slice(0, PER_SUBJECT_CTX_LIMIT) + '…(truncated)';
+      }
+      blocks.push('## ' + s.name + ' (teacher: ' + (s.teacher || 'his teacher') + ')' + (ctx ? '\n' + ctx : ''));
+    });
+    var courseCtx = blocks.join('\n\n');
+    if (courseCtx.length > TOTAL_CTX_LIMIT) courseCtx = courseCtx.slice(0, TOTAL_CTX_LIMIT) + '\n…(truncated)';
+    return 'You are Yusuf\'s study AI — a friendly, patient tutor for a Year 9 student (age 14-15) at Amity College, NSW, Australia. ' +
+      'You help with ALL of his subjects and anything else about his schoolwork.\n' +
       'Rules:\n' +
       '- Keep answers short (under 150 words) and in simple English.\n' +
       '- Teach, do not just hand over finished essay answers: guide with steps, examples and questions.\n' +
       '- Stay aligned to the NSW syllabus topics listed below when relevant.\n' +
-      '- End with one quick check question so the student proves they understood.\n' +
-      '- If the student asks who you are, you are ' + p.name + ', the ' + subject.name + ' tutor.\n' +
+      '- When he asks to be quizzed or wants practice questions: ask ONE item at a time (multiple choice as A/B/C/D unless he asks otherwise), wait for his answer, mark it, explain in one or two sentences, and give a score at the end. He may change anything mid-session — number of questions, type (multiple choice / short answer / extended response), topic, difficulty — or ask you to explain a topic in depth first: adapt naturally.\n' +
+      '- End normal explanations with one quick check question so he proves he understood.\n' +
+      '- If he asks who you are: you are his study AI, and you know his four school subjects.\n' +
       '- This is a school student: keep every answer age-appropriate and safe.\n' +
-      (ctx ? '\nHis course topics:\n' + ctx : '');
+      (courseCtx ? '\nHis subjects and course topics:\n' + courseCtx : '');
   }
 
-  /* Returns { system, messages } — history trimmed to last 8, question appended. */
-  function buildMessages(subject, guide, history, question) {
+  /* Returns { system, messages } for the one AI zone — history trimmed to last 8, question appended. */
+  function buildMessages(course, history, question) {
     var msgs = [];
     (history || []).slice(-8).forEach(function (m) { msgs.push({ role: m.role, content: m.content }); });
     msgs.push({ role: 'user', content: String(question || '') });
-    return { system: systemPrompt(subject, guide), messages: msgs };
+    return { system: systemPrompt(course), messages: msgs };
   }
 
   function extractError(data, status) {
@@ -110,8 +114,7 @@
     buildMessages: buildMessages,
     chat: chat,
     systemPrompt: systemPrompt,
-    personaFor: personaFor,
-    PERSONAS: PERSONAS,
+    STARTERS: STARTERS,
     DEFAULTS: DEFAULTS
   };
 });

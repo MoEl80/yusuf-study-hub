@@ -69,11 +69,9 @@
   }
 
   function zoneLinks(subject, active) {
-    var tutorName = window.YSH.tutor ? window.YSH.tutor.personaFor(subject.id).name : null;
     var zones = [
       ['guide', '📖 Study Guide'], ['notes', '📚 Notes & Resources'], ['cards', '🃏 Flashcards'],
-      ['quiz', '❓ Practice Quiz'], ['exam', '🎓 Exam Mode'],
-      ['tutor', tutorName ? '🤖 Ask ' + tutorName : '🤖 Ask the Tutor']
+      ['quiz', '❓ Practice Quiz'], ['exam', '🎓 Exam Mode']
     ];
     return zones.map(function (z) {
       var href = '#/s/' + subject.id + '/' + z[0];
@@ -85,7 +83,9 @@
     var sb = document.getElementById('sidebar');
     sb.textContent = '';
     var m = hash.match(/^#\/s\/([a-z0-9-]+)\/([a-z]+)$/);
-    sb.appendChild(app.el('a', { href: '#/dashboard', class: 'home-link' + (!m ? ' active' : '') }, '🏠 Dashboard'));
+    var isAi = /^#\/ai/.test(hash);
+    sb.appendChild(app.el('a', { href: '#/dashboard', class: 'home-link' + (!m && !isAi ? ' active' : '') }, '🏠 Dashboard'));
+    sb.appendChild(app.el('a', { href: '#/ai', class: 'home-link' + (isAi ? ' active' : '') }, '🤖 Ask Me Anything'));
     app.subjects().forEach(function (s) {
       var isCurrent = m && m[1] === s.id;
       var box = app.el('div', { class: 'subject-nav' });
@@ -241,8 +241,15 @@
     var main = document.getElementById('main');
     main.textContent = '';
     document.title = 'Yusuf Study Hub';
+    if (/^#\/ai/.test(hash)) {
+      document.title = 'Ask Me Anything — Yusuf Study Hub';
+      window.YSH.ui.ai.render(main);
+      window.scrollTo(0, 0);
+      return;
+    }
     var m = hash.match(/^#\/s\/([a-z0-9-]+)\/([a-z]+)$/);
     if (!m) { renderDashboard(main); return; }
+    if (m[2] === 'tutor') { location.hash = '#/ai'; return; }
     var subject = app.subjects().filter(function (x) { return x.id === m[1]; })[0];
     if (!subject) { renderDashboard(main); return; }
     document.title = subject.name + ' — Yusuf Study Hub';
@@ -251,7 +258,6 @@
     else if (m[2] === 'cards') window.YSH.ui.flashcards.render(main, subject);
     else if (m[2] === 'quiz') window.YSH.ui.quiz.render(main, subject);
     else if (m[2] === 'exam') window.YSH.ui.exam.render(main, subject);
-    else if (m[2] === 'tutor') window.YSH.ui.tutor.render(main, subject);
     else renderDashboard(main);
     window.scrollTo(0, 0);
   }

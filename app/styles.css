@@ -37,6 +37,8 @@ textarea.answer { width: 100%; min-height: 90px; font: inherit; padding: 8px; bo
 .tutor-me { background: #dbeafe; margin-left: 15%; }
 .tutor-ai { background: #f1f5f9; margin-right: 15%; }
 input.tutor-key { padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; margin: 6px 6px 6px 0; width: 260px; }
+.tutor-starters { margin: 8px 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.tutor-starters .button { padding: 6px 12px; }
 .answer-space { display: none; }
 mark { background: #fef08a; }
 
