@@ -11,7 +11,7 @@
   'use strict';
 
   var DEFAULTS = {
-    anthropic: { endpoint: 'https://open.bigmodel.cn/api/anthropic', model: 'glm-4.6' },
+    anthropic: { endpoint: 'https://open.bigmodel.cn/api/anthropic', model: 'glm-5.3' },
     openai: { endpoint: 'https://open.bigmodel.cn/api/paas/v4/chat/completions', model: 'glm-4-flash' }
   };
 
