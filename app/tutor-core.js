@@ -15,25 +15,39 @@
     openai: { endpoint: 'https://open.bigmodel.cn/api/paas/v4/chat/completions', model: 'glm-4-flash' }
   };
 
-  /* One AI zone: course-wide context — all subjects, each block trimmed, total capped. */
-  var PER_SUBJECT_CTX_LIMIT = 4000;
-  var TOTAL_CTX_LIMIT = 16000;
+  /* One AI zone: course-wide context — all subjects, each block trimmed, total capped.
+     Trimming is topic-granular: whole topics stay until the budget is spent, and every topic TITLE is
+     always listed so the AI knows the full course map even when details are trimmed. */
+  var PER_SUBJECT_CTX_LIMIT = 6000;
+  var TOTAL_CTX_LIMIT = 32000;
 
   var STARTERS = {
     quiz: 'Quiz me: 5 multiple-choice questions, one at a time, from any of my subjects.',
     mix: 'Mix me a practice set: a few multiple-choice and one short-answer question from different topics.'
   };
 
+  function subjectCtx(s, limit) {
+    var topics = (s.guide && s.guide.topics) || [];
+    var lines = [], used = 0, truncated = false;
+    for (var i = 0; i < topics.length; i++) {
+      var line = '- ' + topics[i].title + ': ' + (topics[i].keyKnowledge || []).join(' ');
+      if (used + line.length > limit && i > 0) { truncated = true; break; }
+      lines.push(line);
+      used += line.length + 1;
+    }
+    var ctx = lines.join('\n');
+    if (truncated) {
+      var rest = topics.slice(lines.length).map(function (t) { return t.title; }).join('; ');
+      ctx += '\n(Also in this subject: ' + rest + ')';
+    }
+    if (ctx.length > limit) ctx = ctx.slice(0, limit) + '…(truncated)';
+    return ctx;
+  }
+
   function systemPrompt(course) {
     var blocks = [];
     (course || []).forEach(function (s) {
-      var ctx = '';
-      if (s.guide && s.guide.topics) {
-        ctx = s.guide.topics.map(function (t) {
-          return '- ' + t.title + ': ' + (t.keyKnowledge || []).join(' ');
-        }).join('\n');
-        if (ctx.length > PER_SUBJECT_CTX_LIMIT) ctx = ctx.slice(0, PER_SUBJECT_CTX_LIMIT) + '…(truncated)';
-      }
+      var ctx = subjectCtx(s, PER_SUBJECT_CTX_LIMIT);
       blocks.push('## ' + s.name + ' (teacher: ' + (s.teacher || 'his teacher') + ')' + (ctx ? '\n' + ctx : ''));
     });
     var courseCtx = blocks.join('\n\n');
