@@ -1,0 +1,58 @@
+/* Year 9 Mathematics flashcards — NSW Mathematics K–10 (2022) Stage 5 Core (added 2026-09-11). */
+(function (root) {
+  root.YSH_DATA = root.YSH_DATA || {};
+  root.YSH_DATA.maths = root.YSH_DATA.maths || {};
+  root.YSH_DATA.maths.flashcards = {
+    subjectId: 'maths',
+    cards: [
+      { id: 'math-card-001', topic: 'finance', front: 'Simple interest formula?', back: 'I = P × r × n — principal × rate (as a decimal) × number of periods. Total = P + I.' },
+      { id: 'math-card-002', topic: 'finance', front: 'Sale price after a d% discount?', back: 'Marked price × (1 − d/100). e.g. 15% off $80 → 80 × 0.85 = $68.' },
+      { id: 'math-card-003', topic: 'finance', front: 'Successive discounts 25% then 10% = ?', back: '× 0.75 × 0.90 = × 0.675, i.e. 32.5% off — NOT 35%.' },
+      { id: 'math-card-004', topic: 'finance', front: 'How do you find the BEST BUY?', back: 'Compare UNIT prices: price ÷ quantity. Cheapest per gram/litre wins, not cheapest total.' },
+      { id: 'math-card-005', topic: 'finance', front: 'Commission pay = ?', back: 'Percentage of sales: e.g. 3% of $12 500 sales = $375.' },
+      { id: 'math-card-006', topic: 'algebra', front: 'Expand −3(x − 4)', back: '−3x + 12 — the negative multiplies BOTH terms inside.' },
+      { id: 'math-card-007', topic: 'algebra', front: 'What are LIKE TERMS?', back: 'Same pronumeral AND same power (3x and 5x yes; 3x and 3x² no). Only like terms combine.' },
+      { id: 'math-card-008', topic: 'algebra', front: 'Simplify 6x²y ÷ 3x', back: '2xy — divide coefficients, subtract indices.' },
+      { id: 'math-card-009', topic: 'algebra', front: 'How do you factorise 5x + 15?', back: 'Take out the HCF: 5(x + 3). Check by expanding back.' },
+      { id: 'math-card-010', topic: 'indices', front: 'Index law: x^m × x^n', back: 'x^(m+n) — add the indices when multiplying.' },
+      { id: 'math-card-011', topic: 'indices', front: 'Index law: x^m ÷ x^n', back: 'x^(m−n) — subtract the indices when dividing.' },
+      { id: 'math-card-012', topic: 'indices', front: 'Index law: (x^m)^n', back: 'x^(mn) — multiply the indices. And (2x³)² = 4x⁶: the power hits the coefficient too.' },
+      { id: 'math-card-013', topic: 'indices', front: 'What is x⁰ (x ≠ 0)?', back: '1 — any non-zero base to the power zero is 1.' },
+      { id: 'math-card-014', topic: 'indices', front: 'What does a NEGATIVE index mean?', back: 'A reciprocal: x^(−n) = 1/x^n. It never makes the value negative.' },
+      { id: 'math-card-015', topic: 'indices', front: 'Scientific notation rules?', back: 'a × 10^m with 1 ≤ a < 10. Big numbers → positive power; small numbers → negative power.' },
+      { id: 'math-card-016', topic: 'indices', front: 'Round 0.008417 to 2 significant figures', back: '0.0084 — count from the first NON-ZERO digit; leading zeros are placeholders.' },
+      { id: 'math-card-017', topic: 'equations', front: 'Golden rule of equations?', back: 'Balance: do the same operation to BOTH sides, undoing in reverse order (BIMDAS backwards).' },
+      { id: 'math-card-018', topic: 'equations', front: 'First move for a fraction equation like (2x−1)/3 = 5?', back: 'Multiply BOTH sides by the denominator: 2x − 1 = 15.' },
+      { id: 'math-card-019', topic: 'equations', front: 'How do you CHECK a solution?', back: 'Substitute it into the ORIGINAL equation — both sides must match. Write the check line.' },
+      { id: 'math-card-020', topic: 'equations', front: 'Word problem starter step?', back: 'Define the pronumeral ("let w = width in cm"), build the equation, solve, answer in WORDS with units.' },
+      { id: 'math-card-021', topic: 'linear', front: 'Gradient formula between two points?', back: 'm = (y₂ − y₁)/(x₂ − x₁) = rise ÷ run — subtract in the SAME order top and bottom.' },
+      { id: 'math-card-022', topic: 'linear', front: 'What does y = mx + c tell you?', back: 'm = gradient (rate of change), c = y-intercept (value at x = 0).' },
+      { id: 'math-card-023', topic: 'linear', front: 'When are two lines PARALLEL?', back: 'Same gradient, different intercept: y = 2x + 7 and y = 2x − 3 never meet.' },
+      { id: 'math-card-024', topic: 'linear', front: 'Midpoint of (x₁, y₁) and (x₂, y₂)?', back: '((x₁+x₂)/2 , (y₁+y₂)/2) — average each coordinate.' },
+      { id: 'math-card-025', topic: 'linear', front: 'In a cost model C = 29 + 0.8g, what do 29 and 0.8 mean?', back: '29 = fixed fee (the intercept); 0.8 = cost per GB (the gradient/rate).' },
+      { id: 'math-card-026', topic: 'trig', front: 'SOH CAH TOA', back: 'sin θ = Opp/Hyp, cos θ = Adj/Hyp, tan θ = Opp/Adj.' },
+      { id: 'math-card-027', topic: 'trig', front: 'Pythagoras\u2019 theorem', back: 'c² = a² + b², where c is the hypotenuse. Find a leg: a² = c² − b².' },
+      { id: 'math-card-028', topic: 'trig', front: 'Which ratio uses Opposite and Hypotenuse?', back: 'Sine: sin θ = O/H.' },
+      { id: 'math-card-029', topic: 'trig', front: 'How do you find an ANGLE from sides?', back: 'Use the inverse function: θ = sin⁻¹(O/H), etc.' },
+      { id: 'math-card-030', topic: 'trig', front: 'Angle of ELEVATION vs DEPRESSION', back: 'Elevation = up from the horizontal; depression = down from the horizontal. Both sit on a dashed horizontal line.' },
+      { id: 'math-card-031', topic: 'mensuration', front: 'Circle formulas', back: 'Circumference C = πd = 2πr; Area A = πr².' },
+      { id: 'math-card-032', topic: 'mensuration', front: 'Semicircle PERIMETER', back: 'Half the circumference PLUS the diameter: (πd)/2 + d.' },
+      { id: 'math-card-033', topic: 'mensuration', front: 'Area of a trapezium', back: 'A = ½h(a + b) — average the parallel sides, times the height.' },
+      { id: 'math-card-034', topic: 'mensuration', front: 'Volume of a cylinder', back: 'V = πr²h (area of circular cross-section × height).' },
+      { id: 'math-card-035', topic: 'mensuration', front: 'Surface area of a prism — method?', back: 'Draw the NET, find the area of EVERY face, add them all.' },
+      { id: 'math-card-036', topic: 'mensuration', front: 'Key capacity conversions', back: '1 cm³ = 1 mL; 1 m³ = 1000 L; 1 L = 1000 cm³.' },
+      { id: 'math-card-037', topic: 'geometry', front: 'Similar vs congruent?', back: 'Similar: same shape, sides in the same ratio (zoomed). Congruent: identical — scale factor 1.' },
+      { id: 'math-card-038', topic: 'geometry', front: 'Lengths scale by k — what happens to AREA?', back: 'Area scales by k² (lengths ×3 → areas ×9). Volume would scale by k³.' },
+      { id: 'math-card-039', topic: 'geometry', front: 'Scale 1 : 500 — what does it mean?', back: '1 cm on the drawing = 500 cm (5 m) in real life. Convert units before answering.' },
+      { id: 'math-card-040', topic: 'geometry', front: 'Angle sums: triangle, quadrilateral, straight line', back: 'Triangle 180°, quadrilateral 360°, angles on a straight line 180°, vertically opposite angles equal.' },
+      { id: 'math-card-041', topic: 'data', front: 'Mean', back: 'Sum of all scores ÷ number of scores. Pulled toward outliers.' },
+      { id: 'math-card-042', topic: 'data', front: 'Median of an EVEN number of scores?', back: 'Sort the data, then average the two middle values.' },
+      { id: 'math-card-043', topic: 'data', front: 'IQR', back: 'Q3 − Q1 — the spread of the middle 50%; ignores outliers.' },
+      { id: 'math-card-044', topic: 'data', front: 'Which centre does an OUTLIer drag?', back: 'The mean. The median barely moves — use the median with outliers present.' },
+      { id: 'math-card-045', topic: 'data', front: 'Five-number summary of a box plot', back: 'Minimum, Q1, median, Q3, maximum.' },
+      { id: 'math-card-046', topic: 'probability', front: 'P(E) and its complement', back: 'P(E) = favourable/total (0 to 1); P(not E) = 1 − P(E).' },
+      { id: 'math-card-047', topic: 'probability', front: 'Tree diagram rule', back: 'Multiply ALONG the branches of one path; ADD between separate paths.' },
+      { id: 'math-card-048', topic: 'probability', front: 'WITH vs WITHOUT replacement', back: 'With: independent — same fractions both stages. Without: denominators drop by one on stage two.' }
+    ]
+  };
+})(typeof self !== 'undefined' ? self : globalThis);
