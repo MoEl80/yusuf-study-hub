@@ -1,4 +1,4 @@
-/* AUTO-SYNCED from Google Classroom + Gmail by sync-classroom.js — do not edit; regenerated every run. */
+/* AUTO-SYNCED from Yusuf's Google Classroom by sync-classroom.js (CDP edition) — do not edit; regenerated every run. */
 (function (root) {
   var AUTOS = [];
   var d = root.YSH_DATA = root.YSH_DATA || {};
