@@ -2,6 +2,134 @@
 (function (root) {
   var AUTOS = [
   {
+    "id": "auto-geography-1f209478932e",
+    "title": "Material: Australian_Migration_Push_Pull_Factors (1).",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: Australian_Migration_Push_Pull_Factors (1).\n\nOpen: https://drive.google.com/file/d/1kXfsQcrasQ8ZNjSWLVrCrI0E-z7HdDOq/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-e4875d56e757",
+    "title": "Material: Tree Change and Sea Change Migration in Australia - Student.",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: Tree Change and Sea Change Migration in Australia - Student.\n\nOpen: https://drive.google.com/file/d/1ULRa5cQNp6Hxh49-LS9e7VHqBPyjpX5o/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-27426c892ee3",
+    "title": "Material: AussieMigration.png",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: AussieMigration.png\n\nOpen: https://drive.google.com/file/d/1zTJ9jyxeMNRU1zZvtLcFMxdMrzZ2dib1/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-62041576c4ba",
+    "title": "Material: Day Zero.",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: Day Zero.\n\nOpen: https://drive.google.com/file/d/1lFJY_KgmIqsQEgVy3W6DzsvCEXtEJhch/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-98162cd379f3",
+    "title": "Material: urbanisation_cards_v2 (1).",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: urbanisation_cards_v2 (1).\n\nOpen: https://drive.google.com/file/d/19JGB7TPKTbdIqWBwjOBfmsyCwlKqDtPO/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-753ece2e2d78",
+    "title": "Material: Cape town Day Zero.png",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: Cape town Day Zero.png\n\nOpen: https://drive.google.com/file/d/1PSIxtdJfhMyM6EKeQBT556Iv0v1Tx4Wc/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-75f25ffa08a1",
+    "title": "Material: t-sc-1728637744-air-pollution-leaflet-template_ver_1.",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: t-sc-1728637744-air-pollution-leaflet-template_ver_1.\n\nOpen: https://drive.google.com/file/d/187kj4sdXihaglSfaUErehIMM_lP3-FF_/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-b456faff55b0",
+    "title": "Material: Air Pollution Comprehension.",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: Air Pollution Comprehension.\n\nOpen: https://drive.google.com/file/d/1oKm1velCcQbe5Y0noAnnIctqhcQiJYXY/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-5ae6dfd6708d",
+    "title": "Material: Urbanisation - Comprehension & Research Activities (1).",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: Urbanisation - Comprehension & Research Activities (1).\n\nOpen: https://drive.google.com/file/d/1Xz64uJygjaDb4gyLR9iky6-ARIVGjimH/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-a73eec764e4f",
+    "title": "Material: The Dust Bowl.png",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: The Dust Bowl.png\n\nOpen: https://drive.google.com/file/d/1gF6U6_3N3wSIu9uINbvUV48ATPAPk6RR/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-4ca221086134",
+    "title": "Material: Dhaka Megacity.",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: Dhaka Megacity.\n\nOpen: https://drive.google.com/file/d/1tHkkekHDRIFj0txPbhdndBvmQDVm5iE3/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-062b5af971d1",
+    "title": "Material: Population of Dhaka.png",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: Population of Dhaka.png\n\nOpen: https://drive.google.com/file/d/1QV0H4Q4p1MtcYx60nSVvuTLhr3vHB7pb/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-cb9f2295ff36",
+    "title": "Material: MindmapDhaka.png",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: MindmapDhaka.png\n\nOpen: https://drive.google.com/file/d/1ADLpMdROSz6HUHC8_PntRlpzeDH4uqoG/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-6c649d7726c9",
+    "title": "Material: t-tp-2676231-blank-world-map-colouring-sheet_ver_3.",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: t-tp-2676231-blank-world-map-colouring-sheet_ver_3.\n\nOpen: https://drive.google.com/file/d/1aQBuVqPBDs-YzIpfdshMbfE4JfgNmsDd/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-dc6bb76eb6c6",
+    "title": "Material: Megacities Compehension.",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: Megacities Compehension.\n\nOpen: https://drive.google.com/file/d/1qdDrQyEDA4M7nCxg-RAJHAPzxN1imSBD/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-c4fb64b87412",
+    "title": "Material: Megacity Populations.png",
+    "source": "2026 Year 9 Geography Classwork (auto-synced)",
+    "added": "2026-09-13",
+    "body": "Posted in Classwork: Megacity Populations.png\n\nOpen: https://drive.google.com/file/d/1mO3bJ81KoWkklvU79Ht46z583PQeHI37/view (must be signed in as Yusuf)",
+    "topics": []
+  },
+  {
     "id": "auto-geography-9a83ad57b997",
     "title": "Material: Hazara Mapping Activity.",
     "source": "2026 Year 9 Geography Classwork (auto-synced)",
