@@ -2,6 +2,166 @@
 (function (root) {
   var AUTOS = [
   {
+    "id": "auto-geography-DQz:a364317bbea8",
+    "title": "Matthew BourkeMatthew BourkeCreated Jun 22Jun 22 (Edited Jun 22) – Del",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated Jun 22Jun 22 (Edited Jun 22) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Escaping the Taliban - HazarasLearning Intention: Students are learning about the Hazara people to understand their migration journey, challenges, and contributions to Australian communities.Afghanistan: Hazara minority fearful of future under Taliban ruleAfghanistan: Hazara minority fearful of future under Taliban ruleYouTube video • ‪6 minutes‬Hazara Mapping Activity.pdfHazara Mapping Activity.pdfPDFEscaping the Taliban_ The Hazara People.pdfEscaping the Taliban_ The Hazara People.pdfPDFNo class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:9b5cec4704b8",
+    "title": "Matthew BourkeMatthew BourkeCreated Jun 18Jun 18 (Edited Jun 18) – Del",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated Jun 18Jun 18 (Edited Jun 18) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. China's One Child PolicyLearning Intention: Students are learning about China’s One Child Policy so that we can understand why it was introduced, how it worked, and what effects it had on the population and society.Why China's One-Child Policy is a tragedy like no other | DOCUMENTARY DEEP DIVEWhy China's One-Child Policy is a tragedy like no other | DOCUMENTARY DEEP DIVEYouTube video • ‪11 minutes‬421 problem (1).jpg421 problem (1).jpgImageOne Child Policy (1).jpgOne Child Policy (1).jpgImageFactors Affecting Population Growth BW (1).pdfFactors Affecting Population Growth BW (1).pdfPDFNo class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:d16eb8a9e9fd",
+    "title": "Matthew BourkeMatthew BourkeCreated Jun 9Jun 9 (Edited Jun 9) – Delete",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated Jun 9Jun 9 (Edited Jun 9) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Ghost CitiesLearning Intention: To investigate the causes and impacts of ghost cities in China and evaluate how they affect people and places.Inside China's ghost cities | 60 Minutes AustraliaInside China's ghost cities | 60 Minutes AustraliaYouTube video • ‪11 minutes‬Chinese Ghost Cities.pdfChinese Ghost Cities.pdfPDFThe-location-of-ghost-cities-on-a-map-showing-the-population-change-and-HSR-grid-see (1).pngThe-location-of-ghost-cities-on-a-map-showing-the-population-change-and-HSR-grid-see (1).pngImageNo class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:7104ba3cae77",
+    "title": "Matthew BourkeMatthew BourkeCreated Jun 5Jun 5 (Edited Jun 11) – Delet",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated Jun 5Jun 5 (Edited Jun 11) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Revision Materials & Study GuideY9 REVISION 2026.pdfY9 REVISION 2026.pdfPDFY9_GE_T2_StudyGuide_v3.pdfY9_GE_T2_StudyGuide_v3.pdfPDFFile:Ethnic groups in Sydney.jpg - Wikimedia CommonsFile:Ethnic groups in Sydney.jpg - Wikimedia Commonshttps://commons.wikimedia.org/wiki/File:Ethnic_groups_in_Sydney.jpgHow Migration Shaped Australia's Cultural Diversity.pdfHow Migration Shaped Australia's Cultural Diversity.pdfPDFAustralia's Population Pyramid 2025.pdfAustralia's Population Pyramid 2025.pdfPDFYR9T3MC 2025.pdfYR9T3MC 2025.pdfPDFNo class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:562db8938cfc",
+    "title": "Matthew BourkeMatthew BourkeCreated Jun 3Jun 3 (Edited Jun 4) – Delete",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated Jun 3Jun 3 (Edited Jun 4) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Land Use Models & Chinese CitiesLearning Intention: To investigate how urban land use models explain the structure and growth of Chinese cities.Seven URBAN MODELS, Explained [AP Human Geo Review—Unit 6 Topic 5]Seven URBAN MODELS, Explained [AP Human Geo Review—Unit 6 Topic 5]YouTube video • ‪11 minutes‬Urban Land Use Models in Chinese Cities.pdfUrban Land Use Models in Chinese Cities.pdfPDFroi2-m-69-squared-paper-activity-sheets.pdfroi2-m-69-squared-paper-activity-sheets.pdfPDFChinese_Megacity_Worksheet_No_LI.pdfChinese_Megacity_Worksheet_No_LI.pdfPDFNo class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:cd816c729da9",
+    "title": "Matthew BourkeMatthew BourkeCreated Jun 2Jun 2 (Edited Jun 2) – Delete",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated Jun 2Jun 2 (Edited Jun 2) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Forced Migration - China's Uyghur'sLearning Intention: Students will examine how the Chinese government's policies toward the Uyghur population in Xinjiang relate to population control, and explore the social, political, and human rights consequences of these actions.China's secret internment campsChina's secret internment campsYouTube video • ‪9 minutes‬Xinjiang Camps (1).jpgXinjiang Camps (1).jpgImageForced Migration of China's Uyghurs - Student.pdfForced Migration of China's Uyghurs - Student.pdfPDFNo class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:7f298cfdaa4e",
+    "title": "Matthew BourkeMatthew BourkeCreated May 26May 26 (Edited Jun 1) – Dele",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated May 26May 26 (Edited Jun 1) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. The Left Behind ChildrenLearning Intention: Students learn about the devastating consequences of China's urbanisation on children.China's left-behind children - BBC NewsChina's left-behind children - BBC NewsYouTube video • ‪4 minutes‬China's left behind children.jpgChina's left behind children.jpgImageChina's Left Behind Children.pdfChina's Left Behind Children.pdfPDFNews Writing Template Narrow Lined (1).pdfNews Writing Template Narrow Lined (1).pdfPDFWhy Are Millions of Chinese Kids Parenting Themselves?Why Are Millions of Chinese Kids Parenting Themselves?YouTube video • ‪14 minutes‬No class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:62e307684813",
+    "title": "Matthew BourkeMatthew BourkeCreated May 21May 21 (Edited May 25) – Del",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated May 21May 21 (Edited May 25) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Chinese UrbanisationLearning Intention: Students will deep dive into Chinese urbanisation including the impacts and effects such geographical processes have on megacities and urban villages.China's competition for living space | DW DocumentaryChina's competition for living space | DW DocumentaryYouTube video • ‪42 minutes‬No class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:6427ba981968",
+    "title": "Matthew BourkeMatthew BourkeCreated May 19May 19 (Edited May 19) – Del",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated May 19May 19 (Edited May 19) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Japan's Ticking Population TimebombLearning Intention:Understand the causes of Japan’s population decline.Explore the impacts of an ageing population on society and the economy.Evaluate possible solutions and their effectiveness.Japan's population shrinking as marriage and birth rates plummet | 60 MinutesJapan's population shrinking as marriage and birth rates plummet | 60 MinutesYouTube video • ‪13 minutes‬Japans population timebomb!.pdfJapans population timebomb!.pdfPDFJapan's Population Crash.pdfJapan's Population Crash.pdfPDFJapan population Map (1).jpgJapan population Map (1).jpgImageNo class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:1c05ca473810",
+    "title": "Matthew BourkeMatthew BourkeCreated May 14May 14 – Deleted This post i",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated May 14May 14 – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Population PyramidsLearning Intention: Students will understand how to read and interpret population pyramids to analyse the age and gender structure of a population and draw conclusions about a country’s development, growth trends, and future challenges.The World's Craziest Population PyramidsThe World's Craziest Population PyramidsYouTube video • ‪9 minutes‬pop growth rate (1).jpgpop growth rate (1).jpgImageNote taking PP (1) (1) (1).pdfNote taking PP (1) (1) (1).pdfPDFpopulation pyramid worksheet (2) (1).pdfpopulation pyramid worksheet (2) (1).pdfPDFNo class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:4bbfc6e448bc",
+    "title": "Matthew BourkeMatthew BourkeCreated May 14May 14 (Edited May 15) – Del",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated May 14May 14 (Edited May 15) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Australian ImmigrationLearning Intention: Understand why Australia is debating immigration and how migration affects housing, jobs, infrastructure and the economy.No class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:2beec3a7c9c4",
+    "title": "Matthew BourkeMatthew BourkeCreated May 13May 13 (Edited May 18) – Del",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated May 13May 13 (Edited May 18) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Track your PBL'shttps://classbehavior-1.emergent.host/9A Class Code: 73MTZK9B Class Code: UAM5V4Username: (your first name)Pin: Email me for your 4 digit pin.No class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:185fbb057908",
+    "title": "Matthew BourkeMatthew BourkeCreated May 12May 12 (Edited May 12) – Del",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated May 12May 12 (Edited May 12) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Internal Migration in Developing CountriesLearning Intention: How internal migration creates the challenge of displacing people in their own countries in countries with Lower Economic Development.No class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:98a89ee4cacc",
+    "title": "Matthew BourkeMatthew BourkeCreated May 4May 4 – Deleted This post is ",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated May 4May 4 – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. ****Assessment Notification****No class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:3b376fe3180d",
+    "title": "Matthew BourkeMatthew BourkeCreated May 4May 4 (Edited May 11) – Delet",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated May 4May 4 (Edited May 11) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Internal migration trends in AustraliaLearning Intention: By the end of this subtopic, you will be able to describe the main trends in temporary and permanent internal migration within Australia.No class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:db38b2008da1",
+    "title": "Matthew BourkeMatthew BourkeCreated Apr 28Apr 28 (Edited May 5) – Dele",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated Apr 28Apr 28 (Edited May 5) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Cape Town - Day Zero WaterLearning Intention: Students understand how rapid urbanisation can lead to water shortages, using the example of Cape Town’s “Day Zero” crisis, and explain the links between population growth, increased water demand, and environmental change.No class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:901804ca9db7",
+    "title": "Matthew BourkeMatthew BourkeCreated Apr 28Apr 28 (Edited May 1) – Dele",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated Apr 28Apr 28 (Edited May 1) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Chinese Air Pollution - Consequences of UrbanisationLearning Intention: Students will learn about the consequences of urbanisation in China - specifically the causes, effects and impacts of air pollution in their growing cities.No class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:33121ff62ace",
+    "title": "Matthew BourkeMatthew BourkeCreated Apr 28Apr 28 (Edited May 4) – Dele",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated Apr 28Apr 28 (Edited May 4) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. The LA Dust Bowl - Urbanisation & Internal MigrationLearning Intention: We are learning to understand urbanisation and internal migration, and to analyse how population growth can create social, economic, and environmental impacts on cities using the LA Dust Bowl.No class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:2ca7e972ca07",
+    "title": "Matthew BourkeMatthew BourkeCreated Apr 28Apr 28 (Edited Apr 28) – Del",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated Apr 28Apr 28 (Edited Apr 28) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. Dhaka MegacityStudent Intention: To understand the causes and effects of rapid urbanisation in Dhaka, including migration, overcrowding, inequality, environmental challenges, and the importance of sustainable city planning.No class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
+    "id": "auto-geography-DQz:cc4d529fa2a8",
+    "title": "Matthew BourkeMatthew BourkeCreated Apr 23Apr 23 (Edited Apr 24) – Del",
+    "source": "Announcement by teacher, 2026 Year 9 Geography (auto-synced)",
+    "added": "2026-09-14",
+    "body": "Matthew BourkeMatthew BourkeCreated Apr 23Apr 23 (Edited Apr 24) – Deleted This post is visible to all teachers in this class. It will be permanently deleted today. The MegacityLearning Intention: Students understand what megacities are, why they grow, and the opportunities and challenges they create.No class commentsAdd commentAdd comment",
+    "topics": []
+  },
+  {
     "id": "auto-geography-1f209478932e",
     "title": "Material: Australian_Migration_Push_Pull_Factors (1).",
     "source": "2026 Year 9 Geography Classwork (auto-synced)",
@@ -239,150 +399,6 @@
     "source": "2026 Year 9 Geography Classwork (auto-synced)",
     "added": "2026-09-11",
     "body": "Posted in Classwork: roi2-m-69-squared-paper-activity-sheets.\n\nOpen: https://drive.google.com/file/d/1IfARMZQsmce-C2s9R_SLZddQomJO0b_n/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-f7b94947256c",
-    "title": "Material: Chinese_Megacity_Worksheet_No_LI.",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: Chinese_Megacity_Worksheet_No_LI.\n\nOpen: https://drive.google.com/file/d/1Dx0J4cmNrWhQGKI6HsS1XV2V-URzn1eN/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-51ece38a4e8f",
-    "title": "Material: Xinjiang Camps (1).jpg",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: Xinjiang Camps (1).jpg\n\nOpen: https://drive.google.com/file/d/1VzCliD7Npv5ZRTiUBQ3pCoEFI5suGo5p/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-df64af9070d1",
-    "title": "Material: Forced Migration of China's Uyghurs - Student.",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: Forced Migration of China's Uyghurs - Student.\n\nOpen: https://drive.google.com/file/d/15soYSBG9bb7YXoHGqCcEE9K3FCE89uSY/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-0959f796eff4",
-    "title": "Material: China's left behind children.jpg",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: China's left behind children.jpg\n\nOpen: https://drive.google.com/file/d/1EWrOAyN44g5rLYDvppn-vfZH56N3yH58/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-dc8fc733e1ae",
-    "title": "Material: China's Left Behind Children.",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: China's Left Behind Children.\n\nOpen: https://drive.google.com/file/d/1tsz5TiKfMGziR2u5m8f1cjemFTQsdSVR/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-c3a923378054",
-    "title": "Material: News Writing Template Narrow Lined (1).",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: News Writing Template Narrow Lined (1).\n\nOpen: https://drive.google.com/file/d/1eEN9MGVZNDR0pwPUc3UQHkYN2SqbM01l/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-d4c6a7f64937",
-    "title": "Material: Japans population timebomb!.",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: Japans population timebomb!.\n\nOpen: https://drive.google.com/file/d/1PJN-bRgjL_D4GkGk8ekV2HFMQBPCtcQ1/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-f06591bc428f",
-    "title": "Material: Japan's Population Crash.",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: Japan's Population Crash.\n\nOpen: https://drive.google.com/file/d/1Z7tJ0QclkwhGbjgXaymucs94xiTa9WGe/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-528c06866803",
-    "title": "Material: Japan population Map (1).jpg",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: Japan population Map (1).jpg\n\nOpen: https://drive.google.com/file/d/1XeGxHcfBWQvnm9wCO3OixgjwmwjkUK9Q/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-551ff89e53de",
-    "title": "Material: pop growth rate (1).jpg",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: pop growth rate (1).jpg\n\nOpen: https://drive.google.com/file/d/1iPsYh9Q9Jwc0OJweH-uIsQH43pHkKSA6/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-150c574a2502",
-    "title": "Material: Note taking PP (1) (1) (1).",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: Note taking PP (1) (1) (1).\n\nOpen: https://drive.google.com/file/d/10XsGPjHISlRujtSJ9FIX-4PNm7j1nuOB/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-269c2c0c51de",
-    "title": "Material: population pyramid worksheet (2) (1).",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: population pyramid worksheet (2) (1).\n\nOpen: https://drive.google.com/file/d/16TxdK-alv1IVc6G_qwRhg1bm9XTLZG_K/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-81535daf6b66",
-    "title": "Material: Australian_Residents_by_Country_of_Birth_2021_Census.svg.png",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: Australian_Residents_by_Country_of_Birth_2021_Census.svg.png\n\nOpen: https://drive.google.com/file/d/1MJzhj25TJlrofnDOowR4K4R6Ajx4TVDf/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-1292411b8efc",
-    "title": "Material: Australia's International Migration_ Patterns and Impacts.",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: Australia's International Migration_ Patterns and Impacts.\n\nOpen: https://drive.google.com/file/d/1RpbyHAMCqfMir7jfEwiXrSrHt6lJxDm2/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-9d3cc23d3efd",
-    "title": "Material: migrantsonthemarginspostcards (1).",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: migrantsonthemarginspostcards (1).\n\nOpen: https://drive.google.com/file/d/1jwyvFejCgmjnm22l8-VuPc1_vcFZ9Hho/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-ed4fe4c32b79",
-    "title": "Material: IDC (1).jpg",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: IDC (1).jpg\n\nOpen: https://drive.google.com/file/d/11O-czhMNN47DB0geu4HmWt-Yc3hZSaiV/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-5f80bfd50100",
-    "title": "Material: Internal Migration in Developing Countries_ Causes and Effects - Student.",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: Internal Migration in Developing Countries_ Causes and Effects - Student.\n\nOpen: https://drive.google.com/file/d/1OpLEUBxSadMEEcG5GN9Bk5pKTeXTF4rg/view (must be signed in as Yusuf)",
-    "topics": []
-  },
-  {
-    "id": "auto-geography-26a9523bbd7b",
-    "title": "Material: YR 9 Task 3 Assessment Notification 2026.",
-    "source": "2026 Year 9 Geography Classwork (auto-synced)",
-    "added": "2026-09-11",
-    "body": "Posted in Classwork: YR 9 Task 3 Assessment Notification 2026.\n\nOpen: https://drive.google.com/file/d/1nRzGb2vlWSBosLyyLr-yW2qQ5GZm6uBM/view (must be signed in as Yusuf)",
     "topics": []
   }
 ];
